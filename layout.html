@@ -6,20 +6,21 @@
 		</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="css/media-queries.css" rel="stylesheet" type="text/css">	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	</head>
 	<body>
 	<div class="top-bar">
 		<div class="logo">
-			<a href="#"><img src="Images/logo.png"><span class="logo-text">Task5</span></a>
+			<a href="#"><img src="images/logo.png"><span class="logo-text">Task5</span></a>
 		</div>
 		<div class="avatar">
 			<div class="dropdown">
-				<a class="dropdown-toggle" id="menu1" data-toggle="dropdown"><span class="profile-pic"><img src="Images/avatar.png"></span>Senthil Kumar
+				<a class="dropdown-toggle" id="menu1" data-toggle="dropdown"><span class="profile-pic"><img src="images/avatar.png"></span>Senthil Kumar
 	    		<span class="caret"></span></a>
 				<ul class="dropdown-menu">
 			      <li><a href="#">My Account</a></li>
@@ -27,7 +28,7 @@
 			     </ul>
 		    </div>
 		    <div class="logout">
-		    	<img src="Images/logout.png">
+		    	<img src="images/logout.png">
 		    </div>
 		</div>
 		<div class="clearfix"></div>
@@ -93,11 +94,46 @@
 		<!-- Side Bar -->
 		<div class="col-lg-10 content-right">
 			<div class="section-header">
-				
+                <div class="col-sm-4">
+                    <div class="month">
+                       <span> MAY </span>
+                        <div class="">
+                            <ul class="date list-inline owl-carousel owl-theme">
+                                <li class="item active">1</li>
+                                <li class="item">2</li>
+                                <li class="item">3</li>
+                                <li class="item">4</li>
+                                <li class="item">5</li>
+                                <li class="item">6</li>
+                                <li class="item">7</li>
+                                <li class="item">8</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- owl carousel -->
+                <div class="col-sm-8">
+    				<ul class="list-inline users">
+                        <li>
+                            <label>Me</label>
+                            <a href="#"><img src="images/a1.jpeg"></a>
+                        </li>
+                        <li><a href="#"><img src="images/a2.jpg"></a></li> 
+                        <li><a href="#"><img src="images/a3.jpg"></a></li>  
+                        <li><a href="#"><img src="images/a4.jpg"></a></li>  
+                        <li><a href="#"><img src="images/a5.jpeg"></a></li> 
+                        <li><a href="#"><img src="images/a1.jpeg"></a></li>  
+                        <li><a href="#"><img src="images/a2.jpg"></a></li>  
+                        <li><a href="#"><img src="images/a3.jpg"></a></li> 
+                        <li><a href="#"><img src="images/a4.jpg"></a></li>  
+                        <li><a href="#"><img src="images/a5.jpeg"></a></li>        
+                    </ul>
+                </div>
+                <!-- Users -->
 			</div>
 			<!-- Section -->
 			<div class="main-section">
-            <div class="todo-list" style="height: 616px; width: 720px; overflow: hidden; outline: none;">
+            <div class="todo-list">
                 <h4 class="todo-proj-title">
                     Dorak Online
                 </h4>
@@ -281,8 +317,8 @@
 			<!-- Right Bar -->
 		</div> 
 		<!-- Content Right -->
-	<div class="container-fluid wrapper">
-			
+	<div class="container-fluid wrapper">		
 	</div>
+    <script type="text/javascript" src="js/script.js"></script>
 	</body>
 	</html>
